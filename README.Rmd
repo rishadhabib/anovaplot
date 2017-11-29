@@ -14,16 +14,16 @@ knitr::opts_chunk$set(
 )
 ```
 
-**NOTE: This is a toy package created for expository purposes. It is not meant to actually be useful. If you want a package for factor handling, please see [forcats](https://cran.r-project.org/package=forcats).**
+**INTRO: This is a package created as an assignment for STAT 547. It is still under development and may contain kinks. It will hopefully be useful, at least to me, to create anova plots. I often work with simple experimental studies with AxB designs and one of the most common ways to analyze the data is with anovas. However, I was surprised to find out that although there are packages that display the results of anova analysis, there isn't really an easy, automatic way to plot it. This package is an attempt to make the process easier and more intuitive for me.**
 
-### foofactors
+### anovaplot
 
-Factors are a very useful type of variable in R, but they can also drive you nuts. This package provides some helper functions for the care and feeding of factors.
+
 
 ### Installation
 
 ```{r installation, eval = FALSE}
-devtools::install_github("jennybc/foofactors")
+devtools::install_github("rishadhabib/anovaplot")
 ```
   
 ### Quick demo
